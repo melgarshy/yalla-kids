@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+body{
+    color: #FEB81A;
+    background-image:url(rm347-porpla-02-a-01.jpg);
+    /* background-image: url(form-back.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+    background-attachment: fixed;
+}
+.form
+{
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    margin: 0 10px;
+    transform: translate(-50%, -50%);
+    /* border: 5px SOLID #feba1a; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+    width: 30rem ; 
+    padding:20px ;
+    border-radius: 20px;
+    background-color:rgba(54, 55, 54, 0.532);
+
+}
+
+.form-name{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+   
+}
+input{
+background-color: rgba(23, 90, 105, 0.1);
+font-size: 16px;
+width: 95%;
+padding: 5px;
+ margin: 10px; 
+color: bisque;
+outline: none;
+border: none;
+border-bottom: 2px solid #feba1a;
+}
+.label-radio{
+    width: 10%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+}
+.radio-btn{
+    width: 10%;
+    margin: 20px;
+    padding: 10px;
+}
+.btn{
+    width:40%;
+    margin-top: 10px;
+    margin-left: 27%;
+    border-radius:50px ;
+    font-size: large;
+    font-weight: 900;
+    background-color:#fcba1a  ;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10PX;
+    border: none;
+}
+.btn:hover{
+    background-color: #12121E;
+    transition: 0.54s;
+    cursor: pointer;
+}
